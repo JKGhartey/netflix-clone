@@ -47,6 +47,7 @@ try{
                                     value={name}
                                 />
                             )}
+                            check
                             <Input
                                 label="Email"
                                 onChange={(event) => setEmail(event.target.value)}
